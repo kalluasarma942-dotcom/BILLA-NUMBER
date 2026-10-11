@@ -24,12 +24,12 @@ from api import app as fastapi_app
 APP_NAME = "KRUTIK CYBER EXPERT API"
 
 BOT_TOKEN = os.getenv(
-    "8877480915:AAF3ZGyANaJS6voxsWJnQps9-oXIc_HEBS0",
+    "BOT_TOKEN",
     "",
 ).strip()
 
 OWNER_CHAT_ID = os.getenv(
-    "8630379816",
+    "OWNER_CHAT_ID",
     "",
 ).strip()
 
